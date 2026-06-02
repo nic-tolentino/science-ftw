@@ -1,0 +1,56 @@
+[
+  {
+    "id": "crashcourse",
+    "title": "CrashCourse",
+    "description": "Tons of awesome courses on sciences, history, and more.",
+    "primaryColor": "#E67E22",
+    "accentColor": "#D35400",
+    "image": "https://complexly.org/wp-content/uploads/2024/10/TwitterAvatar.png",
+    "youtubeChannelId": "UCX6b17PVsYBQ0ip5gyeme-Q"
+  },
+  {
+    "id": "scishow",
+    "title": "SciShow",
+    "description": "Exploring the unexpected, the strange, and the beautiful in science.",
+    "primaryColor": "#3498DB",
+    "accentColor": "#2980B9",
+    "image": "https://complexly.org/wp-content/uploads/2021/10/SciShow-Prime_Avatar-June2021.jpg",
+    "youtubeChannelId": "UCZYTClx2T1of7BRZ86-8fow"
+  },
+  {
+    "id": "pbseons",
+    "title": "PBS Eons",
+    "description": "A journey through the history of life on Earth, from the dawn of life to today.",
+    "primaryColor": "#1ABC9C",
+    "accentColor": "#16A085",
+    "image": "https://complexly.org/wp-content/uploads/2021/10/EONS_Avatar_2.jpg",
+    "youtubeChannelId": "UCzR-rom72PHN9Zg7RML9EbA"
+  },
+  {
+    "id": "bizarrebeasts",
+    "title": "Bizarre Beasts",
+    "description": "Exploring the oddest, most wonderful creatures on our planet.",
+    "primaryColor": "#9B59B6",
+    "accentColor": "#8E44AD",
+    "image": "https://complexly.org/wp-content/uploads/2021/10/BEASTS-Avatar.png",
+    "youtubeChannelId": "UC9Lp_AA5M2cMGrlvnnIns-g"
+  },
+  {
+    "id": "studyhall",
+    "title": "Study Hall",
+    "description": "Academic support and study skills for college and beyond.",
+    "primaryColor": "#FEC629",
+    "accentColor": "#D49D00",
+    "image": "https://complexly.org/wp-content/uploads/2025/01/channels4_profile-3-1.jpg",
+    "youtubeChannelId": "UCSc8lYlSyXiKeYhlIop8Ykg"
+  },
+  {
+    "id": "microcosmos",
+    "title": "Journey to the Microcosmos",
+    "description": "Exploring the hidden world of microscopic life through beautiful imagery.",
+    "primaryColor": "#94BFBD",
+    "accentColor": "#0E6655",
+    "image": "https://complexly.org/wp-content/uploads/2021/10/MICO-2201_Avatar_v2.jpg",
+    "youtubeChannelId": "UCBbnbBWJtwsf0jLGUwX5Q3g"
+  }
+]

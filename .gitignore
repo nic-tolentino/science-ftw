@@ -1,16 +1,20 @@
-# Compiled class file
+# ============================
+# General
+# ============================
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
 *.ctxt
+hs_err_pid*
+replay_pid*
+scripts/
+docs/design
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Firebase / Google Services config
+composeApp/google-services*.json
 
-# Package Files #
+# ============================
+# Java / Kotlin / JVM
+# ============================
 *.jar
 *.war
 *.nar
@@ -18,10 +22,142 @@
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
-
-# Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+
+# ============================
+# Gradle
+# ============================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/
+gradle_errors.txt
+# Local development config
+local.properties
+
+# ============================
+# Kotlin Multiplatform
+# ============================
+*.kotlin_module
+*.kotlin_built
+**/generated/
+
+# ============================
+# Android
+# ============================
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files (binaries, generated code, etc.)
+bin/
+gen/
+out/
+# Gradle plugin stores generated sources here
+**/build/
+
+# Local configuration file
+local.properties
+
+# Android Profiling
+*.hprof
+
+# Android Studio navigation table temp files
+captures/
+coverage/
+
+# Android Studio
+*.iml
+.idea/
+*gen*
+
+# NDK
+obj/
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+.cxx/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# ============================
+# iOS / macOS
+# ============================
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xccheckout/
+*.moved-aside
+DerivedData/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+.build/
+Package.resolved
+*.xcodeproj/
+*.xcworkspace/
+
+# SwiftPM
+**/.build/
+**/Package.resolved
+**/xcshareddata/swiftpm/Package.resolved
+
+# iOS/macOS artifacts
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# iOS/macOS build
+*.xcuserstate
+*.xcscmblueprint
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================
+# IDE / Editor
+# ============================
+# IntelliJ IDEA
+*.iws
+*.ipr
+
+# Qwen Code
+.qwen/
+
+# Claude Code
+.claude/
+
+# VS Code
+.vscode/
+
+# NeoVim
+*.swp
+
+# ============================
+# OS
+# ============================
+.DS_Store
+Thumbs.db
